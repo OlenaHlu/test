@@ -1,0 +1,94 @@
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 375px;
+    padding: 0 15px 0 16px;
+}
+
+.benefits-section-title {
+    color: rgba(250, 250, 250, 0.4);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+
+        /* Text */
+        position: static;
+        width: 284px;
+        height: 24px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+    
+    
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 32px 0px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.benefits-card {
+    background-color: rgb(36, 37, 39);
+    border-radius: 20px;
+    width: 344px;
+    height: 270px;
+    margin-bottom: 16px;
+    
+}
+
+.benefits-card-title {
+    color: rgb(250, 250, 250);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: left;
+
+    padding-left: 24px;
+    margin-bottom: 8px;
+}
+
+.benefits-card-text {
+    color: rgba(250, 250, 250, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-align: left;
+    width: 296px;
+    height: 72px;
+
+
+    padding-left: 24px;
+}
