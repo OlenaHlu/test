@@ -1,4 +1,4 @@
-
+/* 
 body {
     background-color: black;
     margin: 0;
@@ -29,11 +29,11 @@ p {
     text-align: left;
     text-transform: uppercase;
 
-        /* Text */
+        
         position: static;
         width: 284px;
         height: 24px;
-        /* Автолейаут */
+        
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -41,7 +41,7 @@ p {
         padding: 0px;
     
     
-        /* Inside Auto Layout */
+        
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -130,3 +130,7 @@ p {
     letter-spacing: -2%;
     text-align: left;
 }
+
+.benefits-card-icon {
+    fill: beige;
+} */
